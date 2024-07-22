@@ -100,3 +100,25 @@ h2{
     background-color: rgba(90, 120, 20, 0.5);
     color: #000;
 }
+/* Imagens no background */
+.bg_image{
+    background-image: url("../img/Azir.jpg");
+    padding: 10px;
+    color: #fff;
+}
+.bg_image_1{
+    background-image: url("../img/Katarina.jpg");
+    padding: 10px;
+    color: #fff;
+}
+/* Centralizando img no background */
+.not-centered-bg,
+.centered-bg{
+    width: 400px;
+    height: 400px;
+    background-image: url("../img/Azir.jpg");
+}
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
