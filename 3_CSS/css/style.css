@@ -220,3 +220,158 @@ h2{
     padding: 15px;
     border-radius: 50px;
 }
+/* margem */
+.margin{
+    margin: 10px;
+    background-color: #222;
+}
+.margin-top{
+    margin-top: 50px;
+    background-color: #444;
+    padding: 10px;
+}
+.margin-shorthand{
+    background-color: #555;
+    margin: 5px 10px 15px 20px;
+    padding: 10px;
+}
+/* box model */
+.box-model {
+    margin: 20px;
+    padding: 15px 15px;
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 200px;
+    height: 350px;
+}
+/* Desafio 3 */
+#box-model-challenge{
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid #459;
+    outline: 10px solid #950;
+    background-color: #123;
+}
+.challenge-title{
+    color: #fff;
+    background-color: #000;
+    padding: 15px;
+    border: none;
+    text-align: center;
+}
+/* TEXT ALIGNed */
+.text-aligned{
+    text-align: right;
+    background-color: #000;
+    color: #fff;
+}
+.conteiner-center{
+    text-align: center;
+    width: 300px;
+    border: 3px solid red;
+}
+/* Text decoration */
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+.remove-underline{
+    text-decoration: none;
+}
+/* TEXT TRANSFORM */
+.upper{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+/* ESPAÇAMENTO DE LETRAS*/
+.spacing{
+    letter-spacing: 20px;
+}
+/* Fontes */
+.Serif{
+    font-family: serif;
+}
+.Sans-serif{
+    font-family: sans-serif;
+}
+.Monospace{
+    font-family: monospace;
+}
+.Cursive{
+    font-family: cursive;
+}
+.Fantasy{
+    font-family: fantasy;
+}
+/* Estilo de fonte */
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+/* Font-weight */
+.thin,.bold,.bolder{
+    font-family: helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+/* Font size */
+.font-size{
+    font-size: 20px;
+}
+.font-size-2{
+    font-size: 50px;
+}
+.font-size-3{
+    font-size: 80px;
+}
+/* Display */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+.block{
+    width: 50px;
+    height: 50px;
+    background-color: #a5f;
+    margin: 10px;
+    display: block;
+}
+/* Escondendo um elemento */
+.invisible{
+    display: none;
+}
+/* Posição estática */
+.static{
+    position: static;
+    background-color: #591;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+/* Relative */
+.relative{
+    position: relative;
+    background-color: #321;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+    
+}
