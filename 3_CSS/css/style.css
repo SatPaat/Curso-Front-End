@@ -373,5 +373,84 @@ h2{
     height: 100px;
     top: 100px;
     left: 40px;
-    
+}
+/* Absolute */
+.absolute{
+    position: absolute;
+    background-color: rgb(207, 105, 2);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Relative com absolute */
+.relative-conteiner{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+   margin-top: 120px; 
+   position: relative;
+}
+.absolute-1,
+.absolute-2{
+    height: 50px;
+    width: 50px;
+    background-color: #459;
+    position: absolute;
+}
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+/* Fixed */
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+   margin-top: 120px; 
+   position: fixed;
+   top: 50px;
+   right: 50px;
+}
+/* STICK */
+.stick{
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+   margin-top: 120px; 
+   position: sticky;
+   top: 50px;
+   right: 50px;
+}
+/* z-index */
+
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    height: 50px;
+    width: 50px;
+    background-color: #123;
+    position: absolute;
+}
+.absolute-3{
+    top: 0;
+    left: 0;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+}
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: #950;
 }
